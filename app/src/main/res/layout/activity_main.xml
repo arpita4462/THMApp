@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:focusableInTouchMode="true">
+
+    <!--android:drawableRight="@drawable/info_button"/>-->
+    <LinearLayout
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <TextView android:id="@+id/tvTitleText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/margin_8"
+                  android:layout_marginBottom="@dimen/margin_8"
+                  android:text="IDENTIFICATION DETAILS"
+                  android:layout_marginRight="@dimen/margin_8"
+                  android:gravity="center"/>
+        <ImageView
+                android:id="@+id/iv_profileplace"
+                android:layout_width="@dimen/margin_16"
+                android:layout_height="@dimen/margin_16"
+                android:layout_gravity="center"
+                android:tint="@color/color_red"
+                android:background="@drawable/info_button" />
+
+    </LinearLayout>
+
+
+    <!--<com.kofigyan.stateprogressbar.StateProgressBar-->
+            <!--android:id="@+id/stateprogressbar"-->
+            <!--android:layout_below="@id/tvTitle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="@dimen/margin_8"-->
+            <!--android:layout_marginBottom="@dimen/margin_8"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:spb_animateToCurrentProgressState="true"-->
+            <!--app:spb_checkStateCompleted="true"-->
+            <!--app:spb_currentStateDescriptionColor="@color/usage_state_foreground_color"-->
+            <!--app:spb_descriptionTopSpaceIncrementer="3dp"-->
+            <!--app:spb_maxStateNumber="6"-->
+            <!--app:spb_stateBackgroundColor="@color/state_background_color"-->
+            <!--app:spb_stateDescriptionColor="@color/state_background_text_color"-->
+            <!--app:spb_stateForegroundColor="@color/usage_state_foreground_color"-->
+            <!--app:spb_stateNumberBackgroundColor="@color/state_background_text_color"-->
+            <!--app:spb_stateNumberForegroundColor="@color/state_foreground_text_color"/>-->
+    <FrameLayout
+            android:layout_below="@id/stateprogressbar"
+            android:id="@+id/fragmentView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+</RelativeLayout>

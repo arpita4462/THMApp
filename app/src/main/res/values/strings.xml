@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">THM App</string>
+    <string name="hint_name">First name</string>
+    <string name="hint_mname">Middle name</string>
+    <string name="hint_lname">Last name</string>
+    <string name="hint_dob">Date of birth</string>
+    <string name="next">Next</string>
+    <string name="label_gender">Gender</string>
+    <string name="lbl_male">Male</string>
+    <string name="lbl_fmale">Female</string>
+    <string name="lbl_other">Others</string>
+    <string name="lbl_change_pic">Change Picture</string>
+    <string name="take_pic">Take Photo</string>
+    <string name="choose_pic">Choose Photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint_nominame">Nominee name</string>
+    <string name="hint_nomirelation">Relation with Nominee</string>
+    <string name="hint_fathername">Father/Spouse\'s Name</string>
+    <string name="label_income">Family income Monthly (Rs)</string>
+    <string name="lbl_income1">0-50,000 pa</string>
+    <string name="back">Back</string>
+
+
+    <string-array name="spinner_doc_type">
+        <item>Document Type</item>
+        <item>Aadhar Card</item>
+        <item>Passport</item>
+        <item>Driving Licence</item>
+        <item>PAN Card</item>
+        <item>Ration Card</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="spinner_initial">
+        <item>Initial</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+        <item>Mastr</item>
+        <item>Smt</item>
+        <item>Dr</item>
+    </string-array>
+    <string-array name="spinner_marital">
+        <item>Marital Status</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+    </string-array>
+    <string-array name="spinner_education">
+        <item>Education</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>12th Pass</item>
+    </string-array>
+    <string-array name="spinner_occupation">
+        <item>Occupation</item>
+        <item>Service</item>
+        <item>Student</item>
+    </string-array>
+    <string-array name="spinner_nationality">
+        <item>Nationality</item>
+        <item>Indian</item>
+        <item>Foreign</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="spinner_religion">
+        <item>Religion</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Shikh</item>
+    </string-array>
+    <string-array name="spinner_reffer">
+        <item>CRO</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+    </string-array>
+    <string-array name="spinner_mother_tongue">
+        <item>Mother Tongue</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+    </string-array>
+    <string-array name="spinner_reefer_for">
+        <item>Evaluation</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+    </string-array>
+
+    <string-array name="india_state_arrays">
+        <item>State</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh </item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Daman and Diu</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>Country</item>
+        <item>Country 2</item>
+        <item>Country 3</item>
+        <item>Country 4</item>
+        <item>Country 5</item>
+        <item>Country 6</item>
+        <item>Country 7</item>
+        <item>Country 8</item>
+    </string-array>
+    <string-array name="distric_arrays">
+        <item>Distric</item>
+        <item>Distric 2</item>
+        <item>Distric 3</item>
+        <item>Distric 4</item>
+        <item>Distric 5</item>
+        <item>Distric 6</item>
+        <item>Distric 7</item>
+        <item>Distric 8</item>
+    </string-array>
+</resources>
